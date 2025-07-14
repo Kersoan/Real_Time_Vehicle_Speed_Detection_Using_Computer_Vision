@@ -1,5 +1,5 @@
 # Real_Time_Vehicle_Speed_Detection_Using_Computer_Vision
-
+```
 import cv2
 import numpy as np
 import imutils
@@ -77,6 +77,6 @@ while cap.isOpened():
 
     if cv2.waitKey(30) & 0xFF == 27:  # Press ESC to exit
         break
-
 cap.release()
 cv2.destroyAllWindows()
+```
